@@ -1,133 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>GO-F5</title>
-<meta charset="utf-8">
-<meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-<link href="./assets/css/bootstrap5.css" rel='stylesheet' type='text/css' />
-<link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+  <head>
+    <title>GO-F5</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link href="./assets/css/bootstrap5.css" rel="stylesheet" type="text/css" />
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <div class="pageWrapper">
-        <header>
-            <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-                <div class="container">
-                    <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png" alt="" /></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item menuItem">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item menuItem">
-                                <a class="nav-link" href="business.html">Business</a>
-                            </li>
-                            <li class="nav-item menuItem">
-                                <a class="nav-link dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown">Personal</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="personal.html">f5 PERSONAL</a></li>
-                                    <li><a class="dropdown-item" href="f5Young.html">f5 YNG</a></li>
-                                    <li><a class="dropdown-item" href="f5Home.html">f5 HOME</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item menuItem">
-                                <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown">About</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Company Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Contact</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section class="topVideoHome">
-                <div class="topVideoHomeContent">
-                    <h1>ENTER <span>A BRAVE <br> NEW WORLD</span></h1>
-                    <p>of payment options way<br> beyond cash.</p>
-                </div>
-                <div class="videoContainer videoShow">
-                    <video muted autoplay loop playsinline>
-                        <source src="./assets/img/landingpageV1.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                        <source src="./assets/img/landingpageV1.mp4" type='video/webm; codecs="vp8, vorbis"' />
-                        Video not supported.
-                    </video>
-                </div>
-                <div class="videoContainer videoHide">
-                    <video muted autoplay loop playsinline>
-                        <source src="./assets/img/mobileVideos/homeVideo1.mp4"
-                            type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-                        <source src="./assets/img/mobileVideos/homeVideo1.mp4"
-                            type='video/webm; codecs="vp8, vorbis"' />
-                        Video not supported.
-                    </video>
-                </div>
-            </section>
-            <section class="homeSec2 dataShow">
-                <div class="container-fluid homeSec2BGColor">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12 paddingLeftRightLess">
-                            <img src="./assets/img/homeimg2.jpg" alt="" />
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <h2>Smart, Secure &amp; Trusted</h2>
-                            <p>f5 is a financial application that brings the power of
-                                blockchain and cutting-edge technologies to create
-                                payment solutions for businesses and individuals alike.
-                                We operate in full compliance with the regulations set by
-                                the central banks and local regulators in each market.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="homeSec2Responsive dataHide">
-                <img src="./assets/img/homeResImg1.jpg" alt="" />
-                <div class="homeSec2ResponsiveContetn">
-                    <h2>Smart, Secure &amp; Trusted</h2>
-                    <p>f5 is a financial application that brings the power of
-                        blockchain and cutting-edge technologies to create
-                        payment solutions for businesses and individuals alike.
-                        We operate in full compliance with the regulations set by
-                        the central banks and local regulators in each market.</p>
-                </div>
-            </section>
-            <section class="firstVideo">
-                <div class="videoWrap1">
-                    <video class="videoShow" id="fixedVideo1" playsinline autoplay muted loop
-                        poster="assets/img/businessVideo2.mp4">
-                        <source src="assets/img/businessVideo2.mp4" type="video/mp4" />
-                    </video>
-                    <video class="videoHide" id="fixedVideo1" playsinline autoplay muted loop
-                        poster="assets/img/mobileVideos/homeVideo2.mp4">
-                        <source src="assets/img/mobileVideos/homeVideo2.mp4" type="video/mp4" />
-                    </video>
-                </div>
-                <div class="container">
-                    <div class="circle-block">
-                        <div class="circle">
-                            <h3>f5 BUSINESS</h3>
-                            <p>Whether you are a start-up or SME, 
-                                unlock efficiency and customer delight with our powerful 
-                                fintech solutions for accepting payments, setting up 
-                                ecommerce store and more! UAE-registered businesses 
-                                can open an f5 account quickly from wherever they are, 
-                                through our 100% digital and easy on boarding process, 
-                                without any physical branch visits!
-                                <a class="animated-scroll" href="business.html"><i class="page-scroll arrow1"></i> </a>
-                                <!-- <a href="business.html"><img src="./assets/img/arrow1.png" alt="" /></a> -->
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- <section class="homeSec3 clearfix">
+      <header>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand logo" href="index.html"
+              ><img src="assets/img/logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item menuItem">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item menuItem">
+                  <a class="nav-link" href="business.html">Business</a>
+                </li>
+                <li class="nav-item menuItem">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >Personal</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="f5Personal.html"
+                        >f5 PERSONAL</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="f5Young.html">f5 YNG</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="f5Home.html">f5 HOME</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="f5Crypto.html"
+                        >Digital Assets</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item menuItem">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >About</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Company Profile</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="contacts.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="topVideoHome">
+          <div class="topVideoHomeContent">
+            <h1>
+              ENTER
+              <span
+                >A BRAVE <br />
+                NEW WORLD</span
+              >
+            </h1>
+            <p>
+              of payment options way<br />
+              beyond cash.
+            </p>
+          </div>
+          <div class="videoContainer videoShow">
+            <video muted autoplay loop playsinline>
+              <source
+                src="./assets/img/landingpageV1.mp4"
+                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+              />
+              <source
+                src="./assets/img/landingpageV1.mp4"
+                type='video/webm; codecs="vp8, vorbis"'
+              />
+              Video not supported.
+            </video>
+          </div>
+          <div class="videoContainer videoHide">
+            <video muted autoplay loop playsinline>
+              <source
+                src="./assets/img/mobileVideos/homeVideo1.mp4"
+                type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+              />
+              <source
+                src="./assets/img/mobileVideos/homeVideo1.mp4"
+                type='video/webm; codecs="vp8, vorbis"'
+              />
+              Video not supported.
+            </video>
+          </div>
+        </section>
+        <section class="homeSec2 dataShow">
+          <div class="container-fluid homeSec2BGColor">
+            <div class="row">
+              <div class="col-md-6 col-sm-6 col-xs-12 paddingLeftRightLess">
+                <img src="./assets/img/homeimg2.jpg" alt="" />
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-12">
+                <h2>Smart, Secure &amp; Trusted</h2>
+                <p>
+                  f5 is a financial application that brings the power of
+                  blockchain and cutting-edge technologies to create payment
+                  solutions for businesses and individuals alike. We operate in
+                  full compliance with the regulations set by the central banks
+                  and local regulators in each market.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="homeSec2Responsive dataHide">
+          <img src="./assets/img/homeResImg1.jpg" alt="" />
+          <div class="homeSec2ResponsiveContetn">
+            <h2>Smart, Secure &amp; Trusted</h2>
+            <p>
+              f5 is a financial application that brings the power of blockchain
+              and cutting-edge technologies to create payment solutions for
+              businesses and individuals alike. We operate in full compliance
+              with the regulations set by the central banks and local regulators
+              in each market.
+            </p>
+          </div>
+        </section>
+        <section class="firstVideo">
+          <div class="videoWrap1">
+            <video
+              class="videoShow"
+              id="fixedVideo1"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="assets/img/businessVideo2.mp4"
+            >
+              <source src="assets/img/businessVideo2.mp4" type="video/mp4" />
+            </video>
+            <video
+              class="videoHide"
+              id="fixedVideo1"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="assets/img/mobileVideos/homeVideo2.mp4"
+            >
+              <source
+                src="assets/img/mobileVideos/homeVideo2.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="container">
+            <div class="circle-block">
+              <div class="circle">
+                <h3>f5 BUSINESS</h3>
+                <p>
+                  Whether you are a start-up or SME, unlock efficiency and
+                  customer delight with our powerful fintech solutions for
+                  accepting payments, setting up ecommerce store and more!
+                  UAE-registered businesses can open an f5 account quickly from
+                  wherever they are, through our 100% digital and easy on
+                  boarding process, without any physical branch visits!
+                  <a class="animated-scroll" href="business.html"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                  <!-- <a href="business.html"><img src="./assets/img/arrow1.png" alt="" /></a> -->
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <section class="homeSec3 clearfix">
                 <div class="container">
                     <h3>STORIES</h3>
                     <div class="storiesBoxTopBar"></div>
@@ -159,7 +239,7 @@
                     </div>
                 </div>
             </section> -->
-            <!-- <div class="homeSec4 dataShow">
+        <!-- <div class="homeSec4 dataShow">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -186,54 +266,78 @@
                         at any Bank ATM across the UAE. </p>
                 </div>
             </section> -->
-            <section class="secondVideo">
-                <div class="videoWrap2">
-                    <video class="videoShow" id="fixedVideo2" playsinline autoplay muted loop
-                        poster="assets/img/homeVideo2.mp4">
-                        <source src="assets/img/homeVideo2.mp4" type="video/mp4" />
-                    </video>
-                    <video class="videoHide" id="fixedVideo2" playsinline autoplay muted loop
-                        poster="assets/img/mobileVideos/homeVideo3.mp4">
-                        <source src="assets/img/mobileVideos/homeVideo3.mp4" type="video/mp4" />
-                    </video>
+        <section class="secondVideo">
+          <div class="videoWrap2">
+            <video
+              class="videoShow"
+              id="fixedVideo2"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="assets/img/homeVideo2.mp4"
+            >
+              <source src="assets/img/homeVideo2.mp4" type="video/mp4" />
+            </video>
+            <video
+              class="videoHide"
+              id="fixedVideo2"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="assets/img/mobileVideos/homeVideo3.mp4"
+            >
+              <source
+                src="assets/img/mobileVideos/homeVideo3.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+          <div class="container">
+            <div class="circle-block2">
+              <div class="circle2">
+                <h3>f5 PERSONAL</h3>
+                <p>
+                  f5 the digital platform designed <br />
+                  to make your life simple and convenient<br />
+                  by offering a whole new world of<br />
+                  payment options.
+                  <a class="animated-scroll" href="f5Personal.html"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+              <div class="rightCricle">
+                <div class="circle2">
+                  <h3>f5 YNG</h3>
+                  <p>
+                    A revolutionary platform that<br />
+                    inculcates financial responsibility and<br />
+                    spending habits among kids, while<br />
+                    helping you track and monitor their<br />
+                    spends with f5.
+                    <a class="animated-scroll" href="f5Young.html"
+                      ><i class="page-scroll arrow1"></i>
+                    </a>
+                  </p>
                 </div>
-                <div class="container">
-                    <div class="circle-block2">
-                        <div class="circle2">
-                            <h3>f5 PERSONAL</h3>
-                            <p>f5 the digital platform designed <br />
-                                to make your life simple and convenient<br />
-                                by offering a whole new world of<br />
-                                payment options.
-                                <a class="animated-scroll" href="personal.html"><i class="page-scroll arrow1"></i> </a>
-                            </p>
-                        </div>
-                        <div class="rightCricle">
-                            <div class="circle2">
-                                <h3>f5 YNG</h3>
-                                <p>A revolutionary platform that<br />
-                                    inculcates financial responsibility and<br />
-                                    spending habits among kids, while<br />
-                                    helping you track and monitor their<br />
-                                    spends with f5.
-                                    <a class="animated-scroll" href="f5Young.html"><i class="page-scroll arrow1"></i>
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="circle2">
-                            <h3>f5 HOME</h3>
-                            <p>We believe everyone matter. f5 is a<br />
-                                revolutionary platform that makes life<br />
-                                ease for those who make it easy for us on
-                                a daily basis.
-                                <a class="animated-scroll" href="f5Home.html"><i class="page-scroll arrow1"></i> </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- <section class="homeSec3 clearfix">
+              </div>
+              <div class="circle2">
+                <h3>f5 HOME</h3>
+                <p>
+                  We believe everyone matter. f5 is a<br />
+                  revolutionary platform that makes life<br />
+                  ease for those who make it easy for us on a daily basis.
+                  <a class="animated-scroll" href="f5Home.html"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- <section class="homeSec3 clearfix">
                 <div class="container">
                     <h3>STORIES</h3>
                     <div class="storiesBoxTopBar"></div>
@@ -268,7 +372,7 @@
                     </div>
                 </div>
             </section> -->
-            <!-- <div class="homeSec5 clearfix">
+        <!-- <div class="homeSec5 clearfix">
                 <div class="left4">
                     <img src="./assets/img/newhomeImg3.png" alt="">
                 </div>
@@ -285,58 +389,85 @@
                     <button>GET f5</button>
                 </div>
             </div> -->
-        </main>
-        <footer>
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-9 col-sm-9 col-xs-12">
-                            <ul class="linkList">
-                                <li><a href="javascript:;">COMPANY </a></li>
-                                <li><a href="javascript:;">INVESTOR RELATIONS </a></li>
-                                <li><a href="javascript:;">PARTNERS </a></li>
-                                <li><a href="javascript:;">FAQ </a></li>
-                                <li><a href="javascript:;">CONTACT </a></li>
-                            </ul>
-                            <p class="fooPara">The "Go-F5 Technologies LLC" card is issued by Mashreqbank PSC, 
-                                pursuant to license by Visa.  Visa is a registered trademark of  
-                                Visa Inc . Nymcard Payment Services LLC is authorised by the 
-                                Central Bank of The UAE , holding the Retail Payment Services 
-                                and Card Schemes license license in accordance with the Decretal 
-                                Federal Law Bo. (14) of 2018 Regarding the Central Bank & Organization 
-                                of Financial Institutions and Activities and Regulatory Framework.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                            <ul class="socialList">
-                                <li><a href="https://www.facebook.com/f5financeapp" target="_blank"><img
-                                            src="./assets/img/facebook.png" alt="" /> </a></li>
-                                <li><a href="https://www.instagram.com/go_f5_app/" target="_blank"><img
-                                            src="./assets/img/instagram.png" alt="" /></a></li>
-                                <li><a href="https://twitter.com/Go_F5_App" target="_blank"><img
-                                            src="./assets/img/twitter.png" alt="" /></a></li>
-                                <li><a href="https://www.linkedin.com/company/go-f5/" target="_blank"><img
-                                            src="./assets/img/linkedin.png" alt="" /></a></li>
-                            </ul>
-                            <!-- <div class="appIcon">
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-sm-9 col-xs-12">
+                <ul class="linkList">
+                  <li><a href="javascript:;">COMPANY </a></li>
+                  <li><a href="javascript:;">INVESTOR RELATIONS </a></li>
+                  <li><a href="javascript:;">PARTNERS </a></li>
+                  <li><a href="javascript:;">FAQ </a></li>
+                  <li><a href="javascript:;">CONTACT </a></li>
+                </ul>
+                <p class="fooPara">
+                  The "Go-F5 Technologies LLC" card is issued by Mashreqbank
+                  PSC, pursuant to license by Visa. Visa is a registered
+                  trademark of Visa Inc . Nymcard Payment Services LLC is
+                  authorised by the Central Bank of The UAE , holding the Retail
+                  Payment Services and Card Schemes license license in
+                  accordance with the Decretal Federal Law Bo. (14) of 2018
+                  Regarding the Central Bank & Organization of Financial
+                  Institutions and Activities and Regulatory Framework.
+                </p>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12">
+                <ul class="socialList">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/f5financeapp"
+                      target="_blank"
+                      ><img src="./assets/img/facebook.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/go_f5_app/"
+                      target="_blank"
+                      ><img src="./assets/img/instagram.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/Go_F5_App" target="_blank"
+                      ><img src="./assets/img/twitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/go-f5/"
+                      target="_blank"
+                      ><img src="./assets/img/linkedin.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <!-- <div class="appIcon">
                                 <a href="javascript:;"><img src="./assets/img/appstore.png" alt="" /></a>
                                 <a href="javascript:;"><img src="./assets/img/googleplay.png" alt="" /></a>
                             </div> -->
-                            <!-- <button>GET APP</button> -->
-                        </div>
-                    </div>
-                </div>
+                <!-- <button>GET APP</button> -->
+              </div>
             </div>
-            <div class="footerBottom">
-                <p> &copy; COPYRIGHT 2022</p>
-            </div>
-        </footer>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <p>&copy; COPYRIGHT 2022</p>
+        </div>
+      </footer>
     </div>
     <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="./assets/js/bootstrap5.js"></script>
     <script type="text/javascript" src="./assets/js/gsap.min.js"></script>
-    <script type="text/javascript" src="./assets/js/ScrollTrigger.min.js"></script>
-    <script type="text/javascript" src="./assets/js/ScrollToPlugin.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/ScrollTrigger.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/ScrollToPlugin.min.js"
+    ></script>
     <!-- <script src="https://player.vimeo.com/api/player.js"></script> -->
     <script type="text/javascript" src="./assets/js/custom.js"></script>
-</body>
+  </body>
 </html>

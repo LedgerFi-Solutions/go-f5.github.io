@@ -1,327 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>GO-F5</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-    <link href="./assets/css/bootstrap5.css" rel='stylesheet' type='text/css' />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <link href="./assets/css/bootstrap5.css" rel="stylesheet" type="text/css" />
     <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="pageWrapper">
-        <header>
-            <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
-                <div class="container">
-                    <a class="navbar-brand logo" href="index.html"><img src="assets/img/logo.png" alt="" /></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item menuItem">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item menuItem">
-                                <a class="nav-link" href="business.html">Business</a>
-                            </li>
-                            <li class="nav-item menuItem">
-                                <a class="nav-link dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown">Personal</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="personal.html">f5 Personal</a></li>
-                                    <li><a class="dropdown-item" href="f5Young.html">f5 YNG</a></li>
-                                    <li><a class="dropdown-item" href="f5Home.html">f5 HOME</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item menuItem">
-                                <a class="nav-link dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown">About</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Company Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Contact</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section class="businessTabContainer">
-                <div class="businessTab1 clearfix">
-                    <img src="./assets/img/bmainImg1.jpg" alt="" />
-                    <div class="businessTab1Content">
-                        <div class="businessTab1ContentInner">
-                            <h1>Business <br /> Solutions</h1>
-                            <p>Powering <br />
-                                your Ambition
-                                <a class="animated-scroll" data-bs-toggle="modal" data-bs-target="#page1" href="javascript:;"><i
-                                        class="page-scroll arrow1"></i> </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="businessTab2 clearfix">
-                    <img src="./assets/img/AcceptanceSolutions.jpg" alt="" />
-                    <div class="businessTab2Content">
-                        <div class="businessTab2ContentInner">
-                            <h2>Acceptance <br /> Solutions</h2>
-                            <p>Many ways to get paid, <br />
-                                for all types of businesses
-                                <a class="animated-scroll" data-bs-toggle="modal" data-bs-target="#page2" href="javascript:;"><i
-                                        class="page-scroll arrow1"></i> </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="businessTab1 clearfix">
-                    <img src="./assets/img/businesstools.jpg" alt="" />
-                    <div class="businessTab1Content">
-                        <div class="businessTab1ContentInner">
-                            <h1>Business <br /> TOOLS</h1>
-                            <p>Government Mandate Solutions  <br />
-                                are now easily accessible
-                                <a class="animated-scroll" data-bs-toggle="modal" data-bs-target="#page3" href="javascript:;"><i class="page-scroll arrow1"></i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="businessTab2 clearfix">
-                    <img src="./assets/img/bmainImg4.jpg" alt="" />
-                    <div class="businessTab2Content">
-                        <div class="businessTab2ContentInner">
-                            <h2>Financial <br /> Solutions
-                            </h2>
-                            <p>Financial solutions <br />
-                                to power your business
-                                <a class="animated-scroll" data-bs-toggle="modal" data-bs-target="#page4" href="javascript:;"><i
-                                        class="page-scroll arrow1"></i> </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="businessTab1 clearfix">
-                    <img src="./assets/img/bmainImg5.jpg" alt="" />
-                    <div class="businessTab1Content">
-                        <div class="businessTab1ContentInner">
-                            <h1>Insurance <br /> Solutions</h1>
-                            <p>World-class insurance <br />
-                                with monthly premium
-                                <a class="animated-scroll" data-bs-toggle="modal" data-bs-target="#page5" href="javascript:;"><i
-                                        class="page-scroll arrow1"></i> </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-9 col-sm-9 col-xs-12">
-                            <ul class="linkList">
-                                <li><a href="javascript:;">COMPANY </a></li>
-                                <li><a href="javascript:;">INVESTOR RELATIONS </a></li>
-                                <li><a href="javascript:;">PARTNERS </a></li>
-                                <li><a href="javascript:;">FAQ </a></li>
-                                <li><a href="javascript:;">CONTACT </a></li>
-                            </ul>
-                            <p class="fooPara">The "Go-F5 Technologies LLC" card is issued by Mashreqbank PSC, 
-                                pursuant to license by Visa.  Visa is a registered trademark of  
-                                Visa Inc . Nymcard Payment Services LLC is authorised by the 
-                                Central Bank of The UAE , holding the Retail Payment Services 
-                                and Card Schemes license license in accordance with the Decretal 
-                                Federal Law Bo. (14) of 2018 Regarding the Central Bank & Organization 
-                                of Financial Institutions and Activities and Regulatory Framework.</p>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                            <ul class="socialList">
-                                <li><a href="https://www.facebook.com/f5financeapp" target="_blank"><img
-                                            src="./assets/img/facebook.png" alt="" /> </a></li>
-                                <li><a href="https://www.instagram.com/go_f5_app/" target="_blank"><img
-                                            src="./assets/img/instagram.png" alt="" /></a></li>
-                                <li><a href="https://twitter.com/Go_F5_App" target="_blank"><img
-                                            src="./assets/img/twitter.png" alt="" /></a></li>
-                                <li><a href="https://www.linkedin.com/company/go-f5/" target="_blank"><img
-                                            src="./assets/img/linkedin.png" alt="" /></a></li>
-                            </ul>
-                            <!-- <div class="appIcon">
+      <header>
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand logo" href="index.html"
+              ><img src="assets/img/logo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item menuItem">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item menuItem">
+                  <a class="nav-link" href="business.html">Business</a>
+                </li>
+                <li class="nav-item menuItem">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >Personal</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="f5Personal.html"
+                        >f5 Personal</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="f5Young.html">f5 YNG</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="f5Home.html">f5 HOME</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="f5Crypto.html"
+                        >Digital Assets</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item menuItem">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    >About</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">Company Profile</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="contacts.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="businessTabContainer">
+          <div class="businessTab1 clearfix">
+            <img src="./assets/img/bmainImg1.jpg" alt="" />
+            <div class="businessTab1Content">
+              <div class="businessTab1ContentInner">
+                <h1>
+                  Business <br />
+                  Solutions
+                </h1>
+                <p>
+                  Powering <br />
+                  your Ambition
+                  <a
+                    class="animated-scroll"
+                    data-bs-toggle="modal"
+                    data-bs-target="#page1"
+                    href="javascript:;"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="businessTab2 clearfix">
+            <img src="./assets/img/AcceptanceSolutions.jpg" alt="" />
+            <div class="businessTab2Content">
+              <div class="businessTab2ContentInner">
+                <h2>
+                  Acceptance <br />
+                  Solutions
+                </h2>
+                <p>
+                  Many ways to get paid, <br />
+                  for all types of businesses
+                  <a
+                    class="animated-scroll"
+                    data-bs-toggle="modal"
+                    data-bs-target="#page2"
+                    href="javascript:;"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="businessTab1 clearfix">
+            <img src="./assets/img/businesstools.jpg" alt="" />
+            <div class="businessTab1Content">
+              <div class="businessTab1ContentInner">
+                <h1>
+                  Business <br />
+                  TOOLS
+                </h1>
+                <p>
+                  Government Mandate Solutions <br />
+                  are now easily accessible
+                  <a
+                    class="animated-scroll"
+                    data-bs-toggle="modal"
+                    data-bs-target="#page3"
+                    href="javascript:;"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="businessTab2 clearfix">
+            <img src="./assets/img/bmainImg4.jpg" alt="" />
+            <div class="businessTab2Content">
+              <div class="businessTab2ContentInner">
+                <h2>
+                  Financial <br />
+                  Solutions
+                </h2>
+                <p>
+                  Financial solutions <br />
+                  to power your business
+                  <a
+                    class="animated-scroll"
+                    data-bs-toggle="modal"
+                    data-bs-target="#page4"
+                    href="javascript:;"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="businessTab1 clearfix">
+            <img src="./assets/img/bmainImg5.jpg" alt="" />
+            <div class="businessTab1Content">
+              <div class="businessTab1ContentInner">
+                <h1>
+                  Insurance <br />
+                  Solutions
+                </h1>
+                <p>
+                  World-class insurance <br />
+                  with monthly premium
+                  <a
+                    class="animated-scroll"
+                    data-bs-toggle="modal"
+                    data-bs-target="#page5"
+                    href="javascript:;"
+                    ><i class="page-scroll arrow1"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-sm-9 col-xs-12">
+                <ul class="linkList">
+                  <li><a href="javascript:;">COMPANY </a></li>
+                  <li><a href="javascript:;">INVESTOR RELATIONS </a></li>
+                  <li><a href="javascript:;">PARTNERS </a></li>
+                  <li><a href="javascript:;">FAQ </a></li>
+                  <li><a href="javascript:;">CONTACT </a></li>
+                </ul>
+                <p class="fooPara">
+                  The "Go-F5 Technologies LLC" card is issued by Mashreqbank
+                  PSC, pursuant to license by Visa. Visa is a registered
+                  trademark of Visa Inc . Nymcard Payment Services LLC is
+                  authorised by the Central Bank of The UAE , holding the Retail
+                  Payment Services and Card Schemes license license in
+                  accordance with the Decretal Federal Law Bo. (14) of 2018
+                  Regarding the Central Bank & Organization of Financial
+                  Institutions and Activities and Regulatory Framework.
+                </p>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-12">
+                <ul class="socialList">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/f5financeapp"
+                      target="_blank"
+                      ><img src="./assets/img/facebook.png" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/go_f5_app/"
+                      target="_blank"
+                      ><img src="./assets/img/instagram.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/Go_F5_App" target="_blank"
+                      ><img src="./assets/img/twitter.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/go-f5/"
+                      target="_blank"
+                      ><img src="./assets/img/linkedin.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+                <!-- <div class="appIcon">
                                 <a href="javascript:;"><img src="./assets/img/appstore.png" alt="" /></a>
                                 <a href="javascript:;"><img src="./assets/img/googleplay.png" alt="" /></a>
                             </div> -->
-                            <!-- <button>GET APP</button> -->
-                        </div>
-                    </div>
-                </div>
+                <!-- <button>GET APP</button> -->
+              </div>
             </div>
-            <div class="footerBottom">
-                <p> &copy; COPYRIGHT 2022</p>
-            </div>
-        </footer>
+          </div>
+        </div>
+        <div class="footerBottom">
+          <p>&copy; COPYRIGHT 2022</p>
+        </div>
+      </footer>
     </div>
 
     <!-- page1 start -->
     <div class="modal fade" id="page1">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                <div class="pageWrapper">
-                    <main>
-                        <section class="bsSection1">
-                            <div class="videoContainer videoShow">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/businessVideo1.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/businessVideo1.mp4"
-                                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="videoContainer videoHide">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/mobileVideos/bsVideo1.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/mobileVideos/bsVideo1.mp4"
-                                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="container content1">
-                                <div class="bsSection1Content">
-                                    <h1>f5 BUSINESS</h1>
-                                    <p><span>Powering your Ambition</span>
-                                        Whether you are a start-up or SME, unlock efficiency and
-                                        customer delight with our powerful fintech solutions for accepting payments,
-                                        setting up ecommerce store and more! UAE-registered businesses can
-                                        open an f5 account quickly from wherever they are, through our 100% digital
-                                        and easy onboarding process, without any physical branch visits! </p>
-                                </div>
-                                <div class="bsSection1Content2">
-                                    <div class="row">
-                                        <div class="col-md-6 paddingLeftRightLess">
-                                            <img src="./assets/img/bsImg1.png" alt="">
-                                        </div>
-                                        <div class="col-md-6 paddingLeftRightLess">
-                                            <h2>Let’s start <br />with the f5 App</h2>
-                                            <p>A powerful app for daily transactions, nifty tools
-                                                to boost your business, a snazzy VISA card for payments
-                                                and business travel – f5 gives you all this and more! </p>
-                                            <!-- <button>GET APP</button> -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <div class="bsSection2 clearfix dataShow">
-                            <div class="container" style="background-color:#fff;">
-                                <div class="row">
-                                    <div class="col-md-6 paddingLeftRightLess">
-                                        <div class="conBox1 clearfix">
-                                            <h3>f5 Card, <br /> powered by VISA</h3>
-                                            <p>Use your personalized f5 Card for
-                                                all your daily business needs. You can also
-                                                request for supplementary physical or virtual cards
-                                                for your partners, managers or key employees.</p>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 paddingLeftRightLess">
-                                        <img class="imgResponsive" src="./assets/img/bsImg2.jpg" alt="" />
-                                    </div>
-                                    <div class="col-md-6 paddingLeftRightLess">
-                                        <img class="imgResponsive" src="./assets/img/bsImg3.jpg" alt="" />
-                                    </div>
-                                    <div class="col-md-6 paddingLeftRightLess">
-                                        <div class="conBox2 clearfix">
-                                            <h3>Got 5 minutes?</h3>
-                                            <p>That’s all the time you need to sign-up for f5!
-                                                Download the f5 App, enter a few key personal details,
-                                                scan your docs and you are all set to hit f5! </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bsResponsiveBox1 dataHide">
-                            <img src="./assets/img/bsImg2res.jpg" alt="" />
-                            <div class="bsResponsiveBox1Content">
-                                <h3>f5 Card, <br /> powered by VISA</h3>
-                                <p>Use your personalized f5 Card for
-                                    all your daily business needs. You can also
-                                    request for supplementary physical or virtual cards
-                                    for your partners, managers or key employees.</p>
-                            </div>
-                        </div>
-                        <div class="bsResponsiveBox2 dataHide">
-                            <img src="./assets/img/bsImg3res.jpg" alt="" />
-                            <div class="bsResponsiveBox2Content">
-                                <h3>Got 5 minutes?</h3>
-                                <p>That’s all the time you need to sign-up for f5!
-                                    Download the f5 App, enter a few key personal details,
-                                    scan your docs and you are all set to hit f5! </p>
-                            </div>
-                        </div>
-                        <section class="bsSection3">
-                            <div class="videoContainer videoShow">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/businessSolutionsVideo2.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/businessSolutionsVideo2.mp4"
-                                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="videoContainer videoHide">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/mobileVideos/bsVideo2.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/mobileVideos/bsVideo2.mp4"
-                                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="container content2">
-                                <h4>Send money <br />globally</h4>
-                                <p>Transfer money locally or internationally <br />
-                                    to colleagues or suppliers in just a few seconds<br />
-                                    through the f5 App.</p>
-                            </div>
-                        </section>
-                        <section class="businessTabContainer">
-                            <div class="businessTab1 clearfix">
-                                <img src="./assets/img/bsImg4.jpg" alt="" />
-                                <div class="businessTab1Content">
-                                    <div class="businessTab1ContentInner">
-                                        <h1>Pay Bills</h1>
-                                        <p>f5 is seamlessly integrated with all
-                                            major billers, so you don’t have to worry
-                                            about bill payment at all. Whether it’s
-                                            mobile payment or electricity bill it’s
-                                            all sorted with the f5 app.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="businessTab2 clearfix">
-                                <img src="./assets/img/cashInAnytime.jpg" alt="" />
-                                <div class="businessTab2Content">
-                                    <div class="businessTab2ContentInner">
-                                        <h2>Cash in anytime</h2>
-                                        <p>Cash cravings? We got you. Use your f5
-                                            Card to withdraw cash from our partner
-                                            bank ATMs across the UAE. You can
-                                            also use your Virtual Card for
-                                            card-less withdrawals.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- <div class="bsSection4">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+          <div class="pageWrapper">
+            <main>
+              <section class="bsSection1">
+                <div class="videoContainer videoShow">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/businessVideo1.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/businessVideo1.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="videoContainer videoHide">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/mobileVideos/bsVideo1.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/mobileVideos/bsVideo1.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="container content1">
+                  <div class="bsSection1Content">
+                    <h1>f5 BUSINESS</h1>
+                    <p>
+                      <span>Powering your Ambition</span> Whether you are a
+                      start-up or SME, unlock efficiency and customer delight
+                      with our powerful fintech solutions for accepting
+                      payments, setting up ecommerce store and more!
+                      UAE-registered businesses can open an f5 account quickly
+                      from wherever they are, through our 100% digital and easy
+                      onboarding process, without any physical branch visits!
+                    </p>
+                  </div>
+                  <div class="bsSection1Content2">
+                    <div class="row">
+                      <div class="col-md-6 paddingLeftRightLess">
+                        <img src="./assets/img/bsImg1.png" alt="" />
+                      </div>
+                      <div class="col-md-6 paddingLeftRightLess">
+                        <h2>Let’s start <br />with the f5 App</h2>
+                        <p>
+                          A powerful app for daily transactions, nifty tools to
+                          boost your business, a snazzy VISA card for payments
+                          and business travel – f5 gives you all this and more!
+                        </p>
+                        <!-- <button>GET APP</button> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <div class="bsSection2 clearfix dataShow">
+                <div class="container" style="background-color: #fff">
+                  <div class="row">
+                    <div class="col-md-6 paddingLeftRightLess">
+                      <div class="conBox1 clearfix">
+                        <h3>
+                          f5 Card, <br />
+                          powered by VISA
+                        </h3>
+                        <p>
+                          Use your personalized f5 Card for all your daily
+                          business needs. You can also request for supplementary
+                          physical or virtual cards for your partners, managers
+                          or key employees.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 paddingLeftRightLess">
+                      <img
+                        class="imgResponsive"
+                        src="./assets/img/bsImg2.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-md-6 paddingLeftRightLess">
+                      <img
+                        class="imgResponsive"
+                        src="./assets/img/bsImg3.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-md-6 paddingLeftRightLess">
+                      <div class="conBox2 clearfix">
+                        <h3>Got 5 minutes?</h3>
+                        <p>
+                          That’s all the time you need to sign-up for f5!
+                          Download the f5 App, enter a few key personal details,
+                          scan your docs and you are all set to hit f5!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bsResponsiveBox1 dataHide">
+                <img src="./assets/img/bsImg2res.jpg" alt="" />
+                <div class="bsResponsiveBox1Content">
+                  <h3>
+                    f5 Card, <br />
+                    powered by VISA
+                  </h3>
+                  <p>
+                    Use your personalized f5 Card for all your daily business
+                    needs. You can also request for supplementary physical or
+                    virtual cards for your partners, managers or key employees.
+                  </p>
+                </div>
+              </div>
+              <div class="bsResponsiveBox2 dataHide">
+                <img src="./assets/img/bsImg3res.jpg" alt="" />
+                <div class="bsResponsiveBox2Content">
+                  <h3>Got 5 minutes?</h3>
+                  <p>
+                    That’s all the time you need to sign-up for f5! Download the
+                    f5 App, enter a few key personal details, scan your docs and
+                    you are all set to hit f5!
+                  </p>
+                </div>
+              </div>
+              <section class="bsSection3">
+                <div class="videoContainer videoShow">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/businessSolutionsVideo2.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/businessSolutionsVideo2.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="videoContainer videoHide">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/mobileVideos/bsVideo2.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/mobileVideos/bsVideo2.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="container content2">
+                  <h4>Send money <br />globally</h4>
+                  <p>
+                    Transfer money locally or internationally <br />
+                    to colleagues or suppliers in just a few seconds<br />
+                    through the f5 App.
+                  </p>
+                </div>
+              </section>
+              <section class="businessTabContainer">
+                <div class="businessTab1 clearfix">
+                  <img src="./assets/img/bsImg4.jpg" alt="" />
+                  <div class="businessTab1Content">
+                    <div class="businessTab1ContentInner">
+                      <h1>Pay Bills</h1>
+                      <p>
+                        f5 is seamlessly integrated with all major billers, so
+                        you don’t have to worry about bill payment at all.
+                        Whether it’s mobile payment or electricity bill it’s all
+                        sorted with the f5 app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="businessTab2 clearfix">
+                  <img src="./assets/img/cashInAnytime.jpg" alt="" />
+                  <div class="businessTab2Content">
+                    <div class="businessTab2ContentInner">
+                      <h2>Cash in anytime</h2>
+                      <p>
+                        Cash cravings? We got you. Use your f5 Card to withdraw
+                        cash from our partner bank ATMs across the UAE. You can
+                        also use your Virtual Card for card-less withdrawals.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- <div class="bsSection4">
                             <div class="container">
                                 <div class="bsSection4ContainerTop"></div>
                                 <div class="bsSection4Container">
@@ -332,364 +506,525 @@
                                 </div>
                             </div>
                         </div> -->
-                    </main>
-                </div>
-            </div>
+            </main>
+          </div>
         </div>
+      </div>
     </div>
     <!-- page1 end -->
 
     <!-- page2 start -->
     <div class="modal fade" id="page2">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                <div class="pageWrapper">
-                    <main>
-                        <section class="asSection1">
-                            <div class="videoContainer videoShow">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/acceptanceSolutionsVideo.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/acceptanceSolutionsVideo.mp4"
-                                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="videoContainer videoHide">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/mobileVideos/asVideo1.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/mobileVideos/asVideo1.mp4"
-                                        type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="container content1">
-                                <div class="asSection1Content">
-                                    <h1>Many ways to <br />
-                                        get paid, for all types<br />
-                                        of businesses.</h1>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="businessTabContainer">
-                            <div class="businessTab1 clearfix">
-                                <img src="./assets/img/SoftPos.jpg" alt="" style="max-width: 100%; width: 75%;" />
-                                <div class="businessTab1Content">
-                                    <div class="businessTab1ContentInner">
-                                        <h1>Accept payments <br />
-                                            on your phone with
-                                            <span>f5 Soft POS</span>
-                                        </h1>
-                                        <p class="txtCtrl2">Skip complicated hardware or
-                                            time-consuming onboarding processes.
-                                            f5 Soft POS allows your customers to pay
-                                            using their credit or debit card with a
-                                            quick tap or a wave. Just download the
-                                            f5 App for Business.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="businessTab2 clearfix">
-                                <img src="./assets/img/SmartPos.jpg" alt="" style="max-width: 100%; width: 75%;" />
-                                <div class="businessTab2Content">
-                                    <div class="businessTab2ContentInner">
-                                        <h2>Upgrade
-                                            <span>f5 Smart POS</span>
-                                        </h2>
-                                        <p class="txtCtrl2">f5 Smart POS terminals are
-                                            NFC-enabled, touch-screen,
-                                            android-based devices that have
-                                            dual camera support and can be used for
-                                            onsite and mobile payments. Upgrade to
-                                            cutting-edge payments technology today!
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            <div class="businessTab1 clearfix">
-                                <img src="./assets/img/paymentlink.jpg" alt=""  style="max-width: 100%; width: 75%;"  />
-                                <div class="businessTab1Content">
-                                    <div class="businessTab1ContentInner">
-                                        <h1>Send <br />
-                                            a Payment Link with
-                                            <span>f5 Payment</span>
-                                        </h1>
-                                        <p class="txtCtrl2">With f5 Payment, you can create a
-                                            secure payment link through which
-                                            your customer can pay for your
-                                            product or service. The money
-                                            will get directly credited
-                                            to your f5 account within minutes.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="businessTab2 clearfix">
-                                <img src="./assets/img/asImg4.jpg" alt="" style="max-width: 100%; width: 75%;" />
-                                <div class="businessTab2Content">
-                                    <div class="businessTab2ContentInner">
-                                        <h2>Launch<br />
-                                            your Ecommerce<br />
-                                            business with<br />
-                                            <span>f5 Store Builder</span>
-                                        </h2>
-                                        <p class="txtCtrl2">Don’t miss out on the ecommerce
-                                            wave. f5 Store Builder’s easy, intuitive
-                                            and feature-rich interface will help you
-                                            go live with your online store in minutes.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </main>
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+          <div class="pageWrapper">
+            <main>
+              <section class="asSection1">
+                <div class="videoContainer videoShow">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/acceptanceSolutionsVideo.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/acceptanceSolutionsVideo.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
                 </div>
-            </div>
+                <div class="videoContainer videoHide">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/mobileVideos/asVideo1.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/mobileVideos/asVideo1.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="container content1">
+                  <div class="asSection1Content">
+                    <h1>
+                      Many ways to <br />
+                      get paid, for all types<br />
+                      of businesses.
+                    </h1>
+                  </div>
+                </div>
+              </section>
+              <section class="businessTabContainer">
+                <div class="businessTab1 clearfix">
+                  <img
+                    src="./assets/img/SoftPos.jpg"
+                    alt=""
+                    style="max-width: 100%; width: 75%"
+                  />
+                  <div class="businessTab1Content">
+                    <div class="businessTab1ContentInner">
+                      <h1>
+                        Accept payments <br />
+                        on your phone with
+                        <span>f5 Soft POS</span>
+                      </h1>
+                      <p class="txtCtrl2">
+                        Skip complicated hardware or time-consuming onboarding
+                        processes. f5 Soft POS allows your customers to pay
+                        using their credit or debit card with a quick tap or a
+                        wave. Just download the f5 App for Business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="businessTab2 clearfix">
+                  <img
+                    src="./assets/img/SmartPos.jpg"
+                    alt=""
+                    style="max-width: 100%; width: 75%"
+                  />
+                  <div class="businessTab2Content">
+                    <div class="businessTab2ContentInner">
+                      <h2>
+                        Upgrade
+                        <span>f5 Smart POS</span>
+                      </h2>
+                      <p class="txtCtrl2">
+                        f5 Smart POS terminals are NFC-enabled, touch-screen,
+                        android-based devices that have dual camera support and
+                        can be used for onsite and mobile payments. Upgrade to
+                        cutting-edge payments technology today!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="businessTab1 clearfix">
+                  <img
+                    src="./assets/img/paymentlink.jpg"
+                    alt=""
+                    style="max-width: 100%; width: 75%"
+                  />
+                  <div class="businessTab1Content">
+                    <div class="businessTab1ContentInner">
+                      <h1>
+                        Send <br />
+                        a Payment Link with
+                        <span>f5 Payment</span>
+                      </h1>
+                      <p class="txtCtrl2">
+                        With f5 Payment, you can create a secure payment link
+                        through which your customer can pay for your product or
+                        service. The money will get directly credited to your f5
+                        account within minutes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="businessTab2 clearfix">
+                  <img
+                    src="./assets/img/asImg4.jpg"
+                    alt=""
+                    style="max-width: 100%; width: 75%"
+                  />
+                  <div class="businessTab2Content">
+                    <div class="businessTab2ContentInner">
+                      <h2>
+                        Launch<br />
+                        your Ecommerce<br />
+                        business with<br />
+                        <span>f5 Store Builder</span>
+                      </h2>
+                      <p class="txtCtrl2">
+                        Don’t miss out on the ecommerce wave. f5 Store Builder’s
+                        easy, intuitive and feature-rich interface will help you
+                        go live with your online store in minutes.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
         </div>
+      </div>
     </div>
     <!-- page2 end -->
 
     <!-- page3 start -->
     <div class="modal fade" id="page3">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                <div class="pageWrapper">
-                    <main>
-                        <section class="btSection1">
-                            <div class="videoContainer videoShow">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/businessToolsVideo.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/businessToolsVideo.mp4" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="videoContainer videoHide">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/mobileVideos/btVideo1.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/mobileVideos/btVideo1.mp4" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="container content1">
-                                <div class="btSection1Content">
-                                    <h1>Business Tools <br /> 
-                                        you can use daily.</h1>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="businessTabContainer">
-                            <div class="businessTab1 clearfix">
-                                <img src="./assets/img/btImg1.jpg" alt="" />
-                                <div class="businessTab1Content">
-                                    <div class="businessTab1ContentInner">
-                                        <h1><span>Payroll</span>
-                                            from your mobile</h1>
-                                        <p class="txtCtrl2">Your f5 wallet comes with
-                                            a payroll assistant embedded in it. Activate it and manage 
-                                            your staff payments on the go. </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="businessTab2 clearfix">
-                                <img src="./assets/img/btImg2.jpg" alt="" />
-                                <div class="businessTab2Content">
-                                    <div class="businessTab2ContentInner">
-                                        <h2>No more
-                                           <span> VAT worries</span></h2>
-                                        <p class="txtCtrl2">f5 digital platforms are
-                                            pre-loaded with built-in VAT solution
-                                            to keep you compliant with UAE taxation rules with ease. </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </main>
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+          <div class="pageWrapper">
+            <main>
+              <section class="btSection1">
+                <div class="videoContainer videoShow">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/businessToolsVideo.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/businessToolsVideo.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
                 </div>
-            </div>
+                <div class="videoContainer videoHide">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/mobileVideos/btVideo1.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/mobileVideos/btVideo1.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="container content1">
+                  <div class="btSection1Content">
+                    <h1>
+                      Business Tools <br />
+                      you can use daily.
+                    </h1>
+                  </div>
+                </div>
+              </section>
+              <section class="businessTabContainer">
+                <div class="businessTab1 clearfix">
+                  <img src="./assets/img/btImg1.jpg" alt="" />
+                  <div class="businessTab1Content">
+                    <div class="businessTab1ContentInner">
+                      <h1><span>Payroll</span> from your mobile</h1>
+                      <p class="txtCtrl2">
+                        Your f5 wallet comes with a payroll assistant embedded
+                        in it. Activate it and manage your staff payments on the
+                        go.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="businessTab2 clearfix">
+                  <img src="./assets/img/btImg2.jpg" alt="" />
+                  <div class="businessTab2Content">
+                    <div class="businessTab2ContentInner">
+                      <h2>No more <span> VAT worries</span></h2>
+                      <p class="txtCtrl2">
+                        f5 digital platforms are pre-loaded with built-in VAT
+                        solution to keep you compliant with UAE taxation rules
+                        with ease.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
         </div>
+      </div>
     </div>
     <!-- page3 end -->
 
     <!-- page4 start -->
     <div class="modal fade" id="page4">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                <div class="pageWrapper">
-                    <main>
-                        <section class="fsSection1">
-                            <div class="videoContainer videoShow">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/financialSolutionsVideo.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/financialSolutionsVideo.mp4" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="videoContainer videoHide">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/mobileVideos/fsVideo1.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/mobileVideos/fsVideo1.mp4" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="container content1">
-                                <div class="fsSection1Content">
-                                    <h1>Financial <br />
-                                        solutions to<br />
-                                        power your<br />
-                                        business. </h1>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="businessTabContainer">
-                            <div class="businessTab2 clearfix">
-                                <img src="./assets/img/fsImg2.jpg" alt="" />
-                                <div class="businessTab2Content">
-                                    <div class="businessTab2ContentInner">
-                                        <h2>Instant <span>Salary in Advance</span> </h2>
-                                        <p class="txtCtrl2">As an f5 customer you can 
-                                            get your salary in advance for any needs that 
-                                            can’t wait till month end. Be it a quick trip
-                                             or a medical emergency, you can always count 
-                                             on this quick and easy feature on the f5 app.   </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="businessTab1 clearfix">
-                                <img src="./assets/img/supplier.jpg" alt="" />
-                                <div class="businessTab1Content">
-                                    <div class="businessTab1ContentInner">
-                                        <h1><span>Supply Chain</span>
-                                            Financing</h1>
-                                        <p class="txtCtrl2">With f5 in your pocket, making 
-                                            payments to suppliers will be a breeze! 
-                                            Just add them to your list of verified 
-                                            beneficiaries and settle payments
-                                            with a tap!</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="businessTab2 clearfix">
-                                <img src="./assets/img/POSFinancing.jpg" alt="" />
-                                <div class="businessTab2Content">
-                                    <div class="businessTab1ContentInner">
-                                        <h1>POS <span style="display:inline;">Financing</span></h1>
-                                        <p class="txtCtrl2">When you enlist for f5 Business,
-                                             you might be eligible for our POS-based lending 
-                                             service. Based on your revenue and payment history, 
-                                             you will be able to apply for working capital 
-                                             instantly on the f5 app. Enjoy the funds you 
-                                             need to grow at competitive rates, with no paper
-                                              work. The higher your f5 relationship value, the
-                                               lower your interest rate! </p>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            
-                        </section>
-                    </main>
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+          <div class="pageWrapper">
+            <main>
+              <section class="fsSection1">
+                <div class="videoContainer videoShow">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/financialSolutionsVideo.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/financialSolutionsVideo.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
                 </div>
-            </div>
+                <div class="videoContainer videoHide">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/mobileVideos/fsVideo1.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/mobileVideos/fsVideo1.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="container content1">
+                  <div class="fsSection1Content">
+                    <h1>
+                      Financial <br />
+                      solutions to<br />
+                      power your<br />
+                      business.
+                    </h1>
+                  </div>
+                </div>
+              </section>
+              <section class="businessTabContainer">
+                <div class="businessTab2 clearfix">
+                  <img src="./assets/img/fsImg2.jpg" alt="" />
+                  <div class="businessTab2Content">
+                    <div class="businessTab2ContentInner">
+                      <h2>Instant <span>Salary in Advance</span></h2>
+                      <p class="txtCtrl2">
+                        As an f5 customer you can get your salary in advance for
+                        any needs that can’t wait till month end. Be it a quick
+                        trip or a medical emergency, you can always count on
+                        this quick and easy feature on the f5 app.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="businessTab1 clearfix">
+                  <img src="./assets/img/supplier.jpg" alt="" />
+                  <div class="businessTab1Content">
+                    <div class="businessTab1ContentInner">
+                      <h1><span>Supply Chain</span> Financing</h1>
+                      <p class="txtCtrl2">
+                        With f5 in your pocket, making payments to suppliers
+                        will be a breeze! Just add them to your list of verified
+                        beneficiaries and settle payments with a tap!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="businessTab2 clearfix">
+                  <img src="./assets/img/POSFinancing.jpg" alt="" />
+                  <div class="businessTab2Content">
+                    <div class="businessTab1ContentInner">
+                      <h1>
+                        POS <span style="display: inline">Financing</span>
+                      </h1>
+                      <p class="txtCtrl2">
+                        When you enlist for f5 Business, you might be eligible
+                        for our POS-based lending service. Based on your revenue
+                        and payment history, you will be able to apply for
+                        working capital instantly on the f5 app. Enjoy the funds
+                        you need to grow at competitive rates, with no paper
+                        work. The higher your f5 relationship value, the lower
+                        your interest rate!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
         </div>
+      </div>
     </div>
     <!-- page4 end -->
 
     <!-- page5 start -->
     <div class="modal fade" id="page5">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content">
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                <div class="pageWrapper">
-                    <main>
-                        <section class="isSection1">
-                            <div class="videoContainer videoShow">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/insuranceVideo.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/insuranceVideo.mp4" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div>
-                            <div class="videoContainer videoHide">
-                                <video autoplay="" loop="" muted="" playsinline="">
-                                    <source src="./assets/img/mobileVideos/isVideo1.mp4"
-                                        type="video/mp4; codecs=&quot;avc1.42E01E, mp4a.40.2&quot;">
-                                    <source src="./assets/img/mobileVideos/isVideo1.mp4" type="video/webm; codecs=&quot;vp8, vorbis&quot;">
-                                    Video not supported.
-                                </video>
-                            </div> 
-                            <div class="container content1">
-                                <div class="isSection1Content">
-                                    <h1>World-class <br />
-                                        insurance with<br />
-                                        monthly premium </h1>
-                                </div>
-                            </div>
-                        </section>
-                        <div class="isSection2">
-                            <div class="container">
-                                <p>Insure your growth journey with f5! We offer a variety of insurance packages <br />
-                                    with the flexibility of monthly payments. Choose from industry-leading features<br />
-                                    and customize the plans as per your company’s needs. </p>
-                            </div>
-                        </div>
-                        <div class="container" style="background-color: #fff;">
-                            <div class="row">
-                                <div class="col-md-6 paddingLeftRightLess">
-                                    <img class="imgResponsive" src="./assets/img/isImg1.png" alt="" />
-                                    <div class="isDataShow">
-                                        <h2>Worker Compensation Insurance</h2>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 paddingLeftRightLess isDataHide">
-                                    <h2 class="isTextStyle1">Worker Compensation Insurance</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 paddingLeftRightLess isDataHide">
-                                    <h3 class="isTextStyle2">Life Cover <br /> Insurance</h3>
-                                </div>
-                                <div class="col-md-6 paddingLeftRightLess">
-                                    <img class="imgResponsive" src="./assets/img/isImg2.png" alt="" />
-                                    <div class="isDataShow">
-                                        <h2>Life Cover <br /> Insurance</h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 paddingLeftRightLess">
-                                    <img class="imgResponsive" src="./assets/img/isImg3.png" alt="" />
-                                    <div class="isDataShow">
-                                        <h2>Commercial <br /> Policy Cover</h2>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 paddingLeftRightLess isDataHide">
-                                    <h2 class="isTextStyle1">Commercial Policy Cover</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </main>
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+          <div class="pageWrapper">
+            <main>
+              <section class="isSection1">
+                <div class="videoContainer videoShow">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/insuranceVideo.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/insuranceVideo.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
                 </div>
-            </div>
+                <div class="videoContainer videoHide">
+                  <video
+                    controls=""
+                    autoplay=""
+                    loop=""
+                    muted=""
+                    playsinline=""
+                  >
+                    <source
+                      src="./assets/img/mobileVideos/isVideo1.mp4"
+                      type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                    />
+                    <source
+                      src="./assets/img/mobileVideos/isVideo1.mp4"
+                      type='video/webm; codecs="vp8, vorbis"'
+                    />
+                    Video not supported.
+                  </video>
+                </div>
+                <div class="container content1">
+                  <div class="isSection1Content">
+                    <h1>
+                      World-class <br />
+                      insurance with<br />
+                      monthly premium
+                    </h1>
+                  </div>
+                </div>
+              </section>
+              <div class="isSection2">
+                <div class="container">
+                  <p>
+                    Insure your growth journey with f5! We offer a variety of
+                    insurance packages <br />
+                    with the flexibility of monthly payments. Choose from
+                    industry-leading features<br />
+                    and customize the plans as per your company’s needs.
+                  </p>
+                </div>
+              </div>
+              <div class="container" style="background-color: #fff">
+                <div class="row">
+                  <div class="col-md-6 paddingLeftRightLess">
+                    <img
+                      class="imgResponsive"
+                      src="./assets/img/isImg1.png"
+                      alt=""
+                    />
+                    <div class="isDataShow">
+                      <h2>Worker Compensation Insurance</h2>
+                    </div>
+                  </div>
+                  <div class="col-md-6 paddingLeftRightLess isDataHide">
+                    <h2 class="isTextStyle1">Worker Compensation Insurance</h2>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 paddingLeftRightLess isDataHide">
+                    <h3 class="isTextStyle2">
+                      Life Cover <br />
+                      Insurance
+                    </h3>
+                  </div>
+                  <div class="col-md-6 paddingLeftRightLess">
+                    <img
+                      class="imgResponsive"
+                      src="./assets/img/isImg2.png"
+                      alt=""
+                    />
+                    <div class="isDataShow">
+                      <h2>
+                        Life Cover <br />
+                        Insurance
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 paddingLeftRightLess">
+                    <img
+                      class="imgResponsive"
+                      src="./assets/img/isImg3.png"
+                      alt=""
+                    />
+                    <div class="isDataShow">
+                      <h2>
+                        Commercial <br />
+                        Policy Cover
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="col-md-6 paddingLeftRightLess isDataHide">
+                    <h2 class="isTextStyle1">Commercial Policy Cover</h2>
+                  </div>
+                </div>
+              </div>
+            </main>
+          </div>
         </div>
+      </div>
     </div>
     <!-- page5 end -->
 
-<script type="text/javascript" src="./assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="./assets/js/bootstrap5.js"></script>
-<script type="text/javascript" src="./assets/js/gsap.min.js"></script>
-<script type="text/javascript" src="./assets/js/ScrollTrigger.min.js"></script>
-<script type="text/javascript" src="./assets/js/ScrollToPlugin.min.js"></script>
-<script type="text/javascript" src="./assets/js/custom.js"></script>
-</body>
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/js/bootstrap5.js"></script>
+    <script type="text/javascript" src="./assets/js/gsap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/ScrollTrigger.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/ScrollToPlugin.min.js"
+    ></script>
+    <script type="text/javascript" src="./assets/js/custom.js"></script>
+  </body>
 </html>
