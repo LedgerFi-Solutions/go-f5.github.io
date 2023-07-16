@@ -1725,7 +1725,6 @@ section {
   font-size: 75px;
   line-height: 50px;
   text-transform: capitalize;
-
 }
 
 .contactSection .contactContent form {
@@ -1778,6 +1777,108 @@ section {
 }
 
 /* contact page css end */
+
+/* about us css start */
+.aboutSection {
+  display: block;
+}
+
+.aboutSection .videoContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.aboutSection .videoContainer video {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+
+.aboutSection .videoContainer2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.aboutSection .videoContainer2 video {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%, -25%);
+}
+
+.aboutSection .content {
+  position: relative;
+  z-index: 2;
+  padding: 389px 0px 200px 700px;
+  box-sizing: border-box;
+  align-items: end;
+  justify-content: center;
+}
+
+.aboutSection .content h1 {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: 'Gilroy-Regular';
+  text-transform: none;
+  padding: 10px 0px 0px;
+  color: #464646;
+}
+
+.aboutSection .content strong {
+  font-family: 'Gilroy-Bold';
+}
+
+.aboutSection2 {
+  background-color: #0D53EB;
+  min-height: inherit !important;
+}
+
+.aboutSection2 img {
+  position: relative;
+  transform: translate(0, -25%);
+  width: 100%;
+  border-radius: 25px;
+  z-index: 999;
+}
+
+.aboutSection2 p {
+  font-family: 'Gilroy-Regular';
+  font-size: 30px;
+  line-height: 45px;
+  color: white;
+  padding: 110px 64px;
+}
+
+.aboutSection3 {
+  min-height: inherit !important;
+  padding: 90px 0px 210px 0px;
+}
+
+.aboutSection3 h1 {
+  font-family: 'Gilroy-Regular';
+  text-align: center;
+  font-size: 48px;
+  line-height: 48px;
+  color: #0D53EB;
+  min-height: inherit !important;
+}
+
+.aboutSection3 strong {
+  font-family: 'Gilroy-Bold';
+}
+
+/* about us css end */
 .animated-scroll {
   position: relative;
   display: inline;
