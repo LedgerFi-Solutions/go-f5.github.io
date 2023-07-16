@@ -1787,7 +1787,6 @@ section {
   position: absolute;
   height: 100%;
   width: 100%;
-  overflow: hidden;
   z-index: 1;
 }
 
@@ -1804,7 +1803,6 @@ section {
   position: absolute;
   height: 100%;
   width: 100%;
-  overflow: hidden;
   z-index: 1;
 }
 
