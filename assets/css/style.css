@@ -1020,6 +1020,21 @@ section {
   left: 25%;
   transform: translate(-25%,-25%);
 }
+.personalSec1 .videoContainer2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+.personalSec1 .videoContainer2 video {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  transform: translate(-25%,-25%);
+}
 .personalSec1 .content1 {
   position: relative;
   z-index: 2;
@@ -1145,6 +1160,53 @@ section {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0178e6', endColorstr='#0806e6', GradientType=0);
   /* IE6-9 */
 }
+.personalSec1 .content1 .cryptoSec1Content2 img {
+  width: 100%;
+  border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 h2 {
+  font-size: 45px;
+  line-height: 49px;
+  font-family: 'Gilroy-Light';
+  text-transform: none;
+  padding: 0px 60px 15px;
+  color: #464646;
+}
+.personalSec1 .content1 .cryptoSec1Content2 p {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 500px;
+  font-family: 'Gilroy-Regular';
+  padding: 10px 60px 15px;
+  color: #464646;
+}
+.personalSec1 .content1 .cryptoSec1Content2 button {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Gilroy-Regular';
+  float: left;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  padding: 10px 50px;
+  margin: 15px 60px 0px;
+  border: none;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0178e6+0,0806e6+69,0806e6+99 */
+  background: #0178e6;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0178e6 0%, #0806e6 69%, #0806e6 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0178e6 0%, #0806e6 69%, #0806e6 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0178e6 0%, #0806e6 69%, #0806e6 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0178e6', endColorstr='#0806e6', GradientType=0);
+  /* IE6-9 */
+}
+
 .personalSec2 {
   display: block;
   /* padding: 90px 0px; */
@@ -1244,6 +1306,56 @@ section {
   box-sizing: border-box;
   color: #fff;
   min-width: 420px;
+}
+.cryptoSec3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:100%;
+  background-color: #e6e7e8;
+  position: relative;
+  
+}
+.cryptoSec3 .cryptoSec3Content{
+  display:flex;
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+.cryptoSec3 .cryptoSec3Content h1 {
+  margin: 350px 0px 0px 0px;
+  margin-left: 25%;
+  line-height: 50px;
+  color:#1055ea;
+  font-size:50px;
+  width:50%;
+}
+.cryptoSec3 button {
+
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Gilroy-Regular';
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  padding: 10px 50px;
+  margin: 15px 60px 50px 0px;
+
+  border: none;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0178e6+0,0806e6+69,0806e6+99 */
+  background: #0178e6;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #0178e6 0%, #0806e6 69%, #0806e6 99%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #0178e6 0%, #0806e6 69%, #0806e6 99%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #0178e6 0%, #0806e6 69%, #0806e6 99%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0178e6', endColorstr='#0806e6', GradientType=0);
+  /* IE6-9 */
 }
 .personalSec4 {
   display: block;
@@ -2379,7 +2491,17 @@ color: #000;
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {}
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {}
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+
+.personalSec1 .content1 .cryptoSec1Content{
+  padding: 389px 0px 200px 500px;
+  box-sizing: border-box;
+  align-items: end;
+  justify-content: center;
+}
+
+
+}
 
 @media (min-width: 1024px) {}
 
@@ -2487,6 +2609,7 @@ color: #000;
 .personalSec1 .videoContainer video {
   left: 25%;
 }
+
 .personalSec1 .content1 .personalSec1Content2 h2 {
   font-size: 24px;
   line-height: 28px;
@@ -2498,6 +2621,25 @@ color: #000;
 .personalSec1 .content1 .personalSec1Content2 button {
   margin: 15px 30px 0px;
 }
+.personalSec1 .content1 .cryptoSec1Content2 {
+  background: #fff !important;
+  border-radius:60px 60px 0px 0px;
+  -moz-border-radius: 60px 60px 0px 0px;
+  -webkit-border-radius: 60px 60px 0px 0px;
+  padding: 0px 0px 50px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 h2 {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 70px 30px 15px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 p {
+  padding: 10px 30px 15px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 button {
+  margin: 15px 30px 0px;
+}
+
 .personalSec2 .conBox1 h3 {
   font-size: 30px;
   line-height: 34px;
@@ -2538,25 +2680,55 @@ color: #000;
 .personalSec5 .videoContainer video {
   object-fit: cover;
 }
+.personalSec1 .content1{
+  width:100%;
+}
 .personalSec1 .content1 .cryptoSec1Content {
-  padding: 600px 0px 20px 20px !important;
-  box-sizing: border-box;
-  align-items: start;
+  padding: 300px 0px 0px;
+  width:100%;
+}
+.personalSec1 .content1 .cryptoSec1Content p {
+  line-height: 55px;
+  font-size: 55px;
+  padding: 30px 30px 90px; 
+  color: #464646;
+  border-radius: 30px 30px 0px 0px;
+  background: rgba(253, 253, 253, 0.7) !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transform-origin: center center;
+  transition: all .5s ease;
+  transition-delay: 0s;
+  position: relative;
+  bottom: -60px;
+  font-family: 'Gilroy-Regular';
+  max-width: 100%;
+  text-shadow: none;
+}
+.personalSec1 .content1 .cryptoSec1Content p span {
+  font-size: 18px;
+  line-height: 28px;
 }
 .personalSec1 .content1 .cryptoSec1Content h1 {
-  font-size: 40px;
+  font-size: 96px;
     line-height: 44px;
    
     box-sizing: border-box;
     position: relative;
     color: #fff;
 }
+/* .personalSec1 .content1 .cryptoSec1Content {
+  padding: 600px 0px 20px 20px !important;
+  box-sizing: border-box;
+  align-items: start;
+}
+
 .personalSec1 .content1 .cryptoSec1Content p {
   padding: 0px 0px 10px 0px;
 }
 .footer ul.linkList li a {
   padding: 10px 5px 10px 15px;
-}
+} */
 .topVideoHome {
   align-items: flex-start;
 }
@@ -2860,6 +3032,10 @@ color: #000;
 .personalSec1 .videoContainer video {
   transform: translate(-50%,-35%);
 }
+.personalSec1 .videoContainer video {
+  transform: translate(-50%,-35%);
+}
+
 .personalSec1 .content1 .personalSec1Content h1 {
   font-size: 40px;
     line-height: 44px;
@@ -2882,6 +3058,26 @@ color: #000;
   padding: 0px 30px 15px;
 }
 .personalSec1 .content1 .personalSec1Content2 button {
+  margin: 15px 30px 15px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 {
+  background: #fff !important;
+  border-radius:60px 60px 0px 0px;
+  -moz-border-radius: 60px 60px 0px 0px;
+  -webkit-border-radius: 60px 60px 0px 0px;
+  padding: 0px 0px 50px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 h2 {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 30px 30px 15px;  
+}
+.personalSec1 .content1 .cryptoSec1Content2 p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 30px 15px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 button {
   margin: 15px 30px 15px;
 }
 .personalSec2 .conBox1 h3 {
@@ -3039,10 +3235,14 @@ color: #000;
 }
 .personalSec1 .content1 .cryptoSec1Content {
   padding: 300px 0px 0px;
+  margin-left: -20%;
+  margin-right:-20%;
+  margin-bottom: -100px;
+  padding-bottom: 200px;
 }
 .personalSec1 .content1 .cryptoSec1Content p {
-  line-height: 26px;
-  font-size: 16px;
+  line-height: 55px;
+  font-size: 55px;
   padding: 30px 30px 90px; 
   color: #000;
   border-radius: 30px 30px 0px 0px;
@@ -3486,6 +3686,26 @@ color: #000;
 .personalSec1 .content1 .personalSec1Content2 button {
   margin: 15px 30px 15px;
 }
+.personalSec1 .content1 .cryptoSec1Content2 {
+  background: #fff !important;
+  border-radius:60px 60px 0px 0px;
+  -moz-border-radius: 60px 60px 0px 0px;
+  -webkit-border-radius: 60px 60px 0px 0px;
+  padding: 0px 0px 50px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 h2 {
+  font-size: 24px;
+  line-height: 28px;
+  padding: 30px 30px 15px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 30px 15px;
+}
+.personalSec1 .content1 .cryptoSec1Content2 button {
+  margin: 15px 30px 15px;
+}
 .personalSec2 .conBox1 h3 {
   font-size: 20px;
   line-height: 24px;
@@ -3622,6 +3842,13 @@ color: #000;
   -webkit-border-radius: 60px 60px 0px 0px;
   padding: 0px 0px 50px;
 }
+.personalSec1 .content1 .cryptoSec1Content2 {
+  background: #fff !important;
+  border-radius:60px 60px 0px 0px;
+  -moz-border-radius: 60px 60px 0px 0px;
+  -webkit-border-radius: 60px 60px 0px 0px;
+  padding: 0px 0px 50px;
+}
 .personalSec1 .content1 .personalSec1Content {
   padding: 300px 0px 0px;
 }
@@ -3653,8 +3880,10 @@ color: #000;
 .personalSec1 .content1 .cryptoSec1Content p {
   line-height: 26px;
   font-size: 16px;
-  padding: 30px 30px 90px; 
+  padding: 30px 30px 200px; 
   color: #000;
+  margin-left:90px;
+  margin-right: 91px;
   border-radius: 30px 30px 0px 0px;
   background: rgba(253, 253, 253, 0.7) !important;
   -webkit-backdrop-filter: blur(8px);
@@ -3665,12 +3894,16 @@ color: #000;
   position: relative;
   bottom: -60px;
   font-family: 'Gilroy-Regular';
-  max-width: 100%;
   text-shadow: none;
 }
 .personalSec1 .content1 .cryptoSec1Content p span {
   font-size: 18px;
   line-height: 28px;
+}
+.personalSec1 .content1 .cryptoSec1Content h1  {
+  margin-top:100px;
+  margin-left:100px;
+  
 }
 .videoShow{
   display: none;
