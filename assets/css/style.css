@@ -1702,12 +1702,14 @@ section {
 /* personal page css end */
 
 /* contact page css start */
-.contactSection {}
+.contactSection {
+  background-color: #E6E7E8;
+}
 
 .contactSection img {
   position: absolute;
-  height: auto;
-  width: 100%;
+  height: 100%;
+  width: auto;
   overflow: hidden;
   z-index: 1;
 }
@@ -1715,7 +1717,7 @@ section {
 .contactSection .contactContent {
   position: relative;
   z-index: 2;
-  margin: 227px 200px 0px 800px;
+  margin: 227px 0px;
 }
 
 .contactSection .contactContent h1 {
@@ -1818,7 +1820,8 @@ section {
 .aboutSection .content {
   position: relative;
   z-index: 2;
-  padding: 389px 0px 200px 700px;
+  margin-top: 20%;
+  padding: 0px 0px 200px 0px;
   box-sizing: border-box;
   align-items: end;
   justify-content: center;
@@ -1840,6 +1843,7 @@ section {
 .aboutSection2 {
   background-color: #0D53EB;
   min-height: inherit !important;
+  z-index: 2;
 }
 
 .aboutSection2 img {
@@ -1847,7 +1851,7 @@ section {
   transform: translate(0, -25%);
   width: 100%;
   border-radius: 25px;
-  z-index: 999;
+  z-index: 2;
 }
 
 .aboutSection2 p {
@@ -4231,6 +4235,14 @@ section {
     padding-right: 15px;
     font-family: 'Gilroy-Regular';
     text-transform: uppercase;
+  }
+
+  .aboutSection .content h1 {
+    position: absolute;
+    margin-top: 50vh;
+    font-size: 32px;
+    color: white;
+    line-height: 30px;
   }
 
   .fooPara {
