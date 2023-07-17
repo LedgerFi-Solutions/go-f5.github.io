@@ -1191,14 +1191,16 @@ section {
   min-height: inherit !important;
 }
 
-.personalSec1 .content1 .cryptoSec1Content {
-  padding: 389px 0px 200px 700px;
+.personalSec1 .content1 .cryptoSec1NewContent {
+  margin-top: 390px;
+  margin-bottom: 200px;
   box-sizing: border-box;
-  align-items: end;
   justify-content: center;
 }
 
-.personalSec1 .content1 .cryptoSec1Content h1 {
+
+
+.personalSec1 .content1 .cryptoSec1NewContent h1 {
   font-size: 100px;
   line-height: 100px;
   font-family: 'Gilroy-Bold';
@@ -1207,7 +1209,8 @@ section {
   color: #D8E2ED;
 }
 
-.personalSec1 .content1 .cryptoSec1Content p {
+
+.personalSec1 .content1 .cryptoSec1NewContent p {
   font-size: 45px;
   line-height: 45px;
   max-width: 641px;
@@ -1217,7 +1220,7 @@ section {
   box-sizing: border-box;
 }
 
-.personalSec1 .content1 .cryptoSec1Content p span {
+.personalSec1 .content1 .cryptoSec1NewContent p span {
   font-size: 16px;
   line-height: 20px;
   font-family: 'Gilroy-Bold';
@@ -1340,6 +1343,47 @@ section {
   overflow: hidden;
 }
 
+.cryptoSec2Content2 {
+  display: block;
+  min-height: 300px;
+  background: rgba(253, 253, 253, 0.7) !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transform-origin: center center;
+  transition: all .5s ease;
+  transition-delay: 0s;
+  border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  overflow: hidden;
+}
+
+.cryptoSec2Content2 img {
+  width: 100%;
+  border-radius: 60px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+}
+
+.cryptoSec2Content2 h2 {
+  font-size: 45px;
+  line-height: 49px;
+  font-family: 'Gilroy-Light';
+  text-transform: none;
+  padding: 0px 60px 15px;
+  color: #464646;
+}
+
+.cryptoSec2Content2 p {
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 500px;
+  font-family: 'Gilroy-Regular';
+  padding: 10px 60px 15px;
+  color: #464646;
+}
+
+/**/
 .personalSec1 .content1 .cryptoSec1Content2 img {
   width: 100%;
   border-radius: 60px;
@@ -1705,8 +1749,6 @@ section {
 .contactSection {
   background-image: linear-gradient(270deg, #9281b0, #605091);
 }
-
-.investorContactSection {}
 
 .grey-background {
   width: 100%;
@@ -3065,11 +3107,24 @@ section {
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
 
-  .personalSec1 .content1 .cryptoSec1Content {
-    padding: 389px 0px 200px 500px;
+  .personalSec1 .content1 .cryptoSec1NewContent p {
+    line-height: 30px;
+    font-size: 30px;
+    padding: 30px 30px 60px;
+    color: white;
+    border-radius: 30px 30px 0px 0px;
+    position: relative;
+    font-family: 'Gilroy-Regular';
+    max-width: 100%;
+    text-shadow: none;
+  }
+
+
+  .personalSec1 .content1 .cryptoSec1NewContent h1 {
+    font-size: 55px;
+    line-height: 55px;
     box-sizing: border-box;
-    align-items: end;
-    justify-content: center;
+    position: relative;
   }
 
   .investorContactSection img {
@@ -3239,6 +3294,25 @@ section {
     margin: 15px 30px 0px;
   }
 
+
+  .personalSec1 .content1 {
+    width: 100%;
+  }
+
+  .personalSec1 .content1 .cryptoSec1NewContent {
+    padding: 0;
+    min-width: 100%;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .personalSec1 .content1 .cryptoSec1NewContent h1 {
+    font-size: 96px;
+    line-height: 96px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
   .personalSec2 .conBox1 h3 {
     font-size: 30px;
     line-height: 34px;
@@ -3287,66 +3361,13 @@ section {
     object-fit: cover;
   }
 
-  .personalSec1 .content1 {
-    width: 100%;
+
+
+  .footer ul.linkList li a {
+    padding: 10px 5px 10px 15px;
   }
 
-  .personalSec1 .content1 .cryptoSec1Content {
-    padding: 300px 0px 0px;
-    width: 100%;
-  }
-
-  .personalSec1 .content1 .cryptoSec1Content p {
-    line-height: 55px;
-    font-size: 55px;
-    padding: 30px 30px 90px;
-    color: #464646;
-    border-radius: 30px 30px 0px 0px;
-    background: rgba(253, 253, 253, 0.7) !important;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    transform-origin: center center;
-    transition: all .5s ease;
-    transition-delay: 0s;
-    position: relative;
-    bottom: -60px;
-    font-family: 'Gilroy-Regular';
-    max-width: 100%;
-    text-shadow: none;
-  }
-
-  .personalSec1 .content1 .cryptoSec1Content p span {
-    font-size: 18px;
-    line-height: 28px;
-  }
-
-  .personalSec1 .content1 .cryptoSec1Content h1 {
-    font-size: 96px;
-    line-height: 44px;
-
-    box-sizing: border-box;
-    position: relative;
-    color: #fff;
-  }
-
-  .investorContactSection img {
-    width: auto;
-    height: 100%
-  }
-
-  /* .personalSec1 .content1 .cryptoSec1Content {
-  padding: 600px 0px 20px 20px !important;
-  box-sizing: border-box;
-  align-items: start;
-}
-
-.personalSec1 .content1 .cryptoSec1Content p {
-  padding: 0px 0px 10px 0px;
-}
-.footer ul.linkList li a {
-  padding: 10px 5px 10px 15px;
-} */
-  .topVideoHome {
+  */ .topVideoHome {
     align-items: flex-start;
   }
 
@@ -3767,6 +3788,7 @@ section {
     -moz-border-radius: 60px 60px 0px 0px;
     -webkit-border-radius: 60px 60px 0px 0px;
     padding: 0px 0px 50px;
+    margin-top: -900px;
   }
 
   .personalSec1 .content1 .cryptoSec1Content2 h2 {
@@ -3783,6 +3805,43 @@ section {
 
   .personalSec1 .content1 .cryptoSec1Content2 button {
     margin: 15px 30px 15px;
+  }
+
+  .personalSec1 .content1 .cryptoSec1NewContent {
+    padding: 300px 0px 0px;
+    min-width: 100%;
+
+  }
+
+  .personalSec1 .content1 .cryptoSec1NewContent h1 {
+    font-size: 80px;
+    line-height: 80px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 100px;
+  }
+
+  .personalSec1 .content1 .cryptoSec1NewContent p {
+    line-height: 55px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 35px;
+    color: #000;
+    border-radius: 30px 30px 0px 0px;
+    background: rgba(253, 253, 253, 0.7) !important;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    transform-origin: center center;
+    transition: all .5s ease;
+    transition-delay: 0s;
+    position: relative;
+    bottom: -60px;
+    font-family: 'Gilroy-Regular';
+    text-shadow: none;
+    margin-bottom: -100px;
+    padding: 10px;
+    padding-bottom: 900px;
   }
 
   .personalSec2 .conBox1 h3 {
@@ -3989,47 +4048,8 @@ section {
     line-height: 28px;
   }
 
-  .personalSec1 .content1 .cryptoSec1Content {
-    padding: 300px 0px 0px;
-    min-width: 100%;
 
-  }
 
-  .personalSec1 .content1 .cryptoSec1Content h1 {
-    font-size: 40px;
-    line-height: 44px;
-    padding: 15px 25px 0px;
-    box-sizing: border-box;
-    position: relative;
-    bottom: -45px;
-    margin-left: 100px;
-  }
-
-  .personalSec1 .content1 .cryptoSec1Content p {
-    line-height: 55px;
-    font-size: 35px;
-    max-width: 75%;
-    margin-left: 6vw;
-    padding: 30px 30px 90px;
-    color: #000;
-    border-radius: 30px 30px 0px 0px;
-    background: rgba(253, 253, 253, 0.7) !important;
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
-    transform-origin: center center;
-    transition: all .5s ease;
-    transition-delay: 0s;
-    position: relative;
-    bottom: -60px;
-    font-family: 'Gilroy-Regular';
-
-    text-shadow: none;
-  }
-
-  .personalSec1 .content1 .cryptoSec1Content p span {
-    font-size: 18px;
-    line-height: 28px;
-  }
 
   .videoShow {
     display: none;
