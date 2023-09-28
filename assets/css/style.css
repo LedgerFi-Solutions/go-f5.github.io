@@ -3054,10 +3054,16 @@ section {
 
   .businessTab1Content {
     left: -100px;
+    top: -200px;
   }
 
   .businessTab2Content {
     right: -100px;
+    top: -200px;
+  }
+
+  .send-payment-link-section {
+    left: -50px;
   }
 
 }
@@ -3091,10 +3097,16 @@ section {
 
   .businessTab1Content {
     left: -250px;
+    top: -200px;
   }
 
   .businessTab2Content {
     right: -250px;
+    top: -200px;
+  }
+
+  .send-payment-link-section {
+    left: -50px;
   }
 
 }
