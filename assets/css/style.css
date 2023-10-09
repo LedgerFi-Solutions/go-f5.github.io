@@ -3057,6 +3057,10 @@ section {
     top: -200px;
   }
 
+  .center-content-card {
+    top: 0;
+  }
+
   .businessTab2Content {
     right: -100px;
     top: -200px;
@@ -3099,6 +3103,10 @@ section {
   .businessTab1Content {
     left: -250px;
     top: -200px;
+  }
+
+  .center-content-card {
+    top: 0;
   }
 
   .businessTab2Content {
